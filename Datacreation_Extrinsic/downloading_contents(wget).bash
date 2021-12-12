@@ -5,5 +5,5 @@ while IFS= read -r line
 do
 c=`expr $c + 1`
 echo "fetching from $line and storing in $c.html"
-wget $line -O $c.html -T 30 -t 2
+wget $line -O $c.htm -T 30 -t 2
 done < "$input"
