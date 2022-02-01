@@ -8,11 +8,11 @@ ii) Run the BERT_finetuning_1686.ipynb to get a language model trained on the ab
 training set. Save the model and its tokenizer.
 
 iii) For extrinsic data, follow Step d and run the files in the given order
-Dataset_creation(kmeans+GoogleApi).ipynb
-search_query_1.ipynb
-downloading_contents(wget).bash
-document_extraction_wget.ipynb
-document_extraction_vers1.ipynb
+Dataset_creation(kmeans+GoogleApi).ipynb,
+search_query_1.ipynb ,
+,downloading_contents(wget).bash
+,document_extraction_wget.ipynb
+,document_extraction_vers1.ipynb
 
 3) Pass the models from step 2 to the evaluation pipeline on the new testing set to get the ICAT, SS, and LM scores.
 4) To reproduce our result, download the folder  from https://drive.google.com/drive/folders/1j3JwXYt3MJTPPwreG6R6yd8ejsFcyQcw?usp=sharing
